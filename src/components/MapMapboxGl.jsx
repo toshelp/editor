@@ -146,6 +146,7 @@ export default class MapMapboxGl extends React.Component {
       container: this.container,
       style: this.props.mapStyle,
       hash: true,
+      localIdeographFontFamily: "false",
       maxZoom: 24
     }
 
